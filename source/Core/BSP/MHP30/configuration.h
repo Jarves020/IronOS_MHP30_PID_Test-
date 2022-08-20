@@ -124,7 +124,7 @@
 #ifdef MODEL_MHP30
 #define SOLDERING_TEMP         200                     // Default soldering temp is 200.0 °C
 #define VOLTAGE_DIV            360                     // Default for MHP30
-#define PID_POWER_LIMIT        65                      // Sets the max pwm power limit
+#define PID_POWER_LIMIT        10                      // Sets the max pwm power limit; def. 65
 #define CALIBRATION_OFFSET     0                       // the adc offset in uV - MHP compensates automagically
 #define MIN_CALIBRATION_OFFSET 0                       // Min value for calibration
 #define POWER_LIMIT            65                      // 65 watts default power limit
@@ -133,7 +133,7 @@
 #define OP_AMP_GAIN_STAGE      OP_AMP_GAIN_STAGE_MHP30 //
 #define USB_PD_VMAX            20                      // Maximum voltage for PD to negotiate
 #define MODEL_HAS_DCDC                                 // Has inductor to current filter
-#define PID_TIM_HZ             (5)                    // default 16
+#define PID_TIM_HZ             (16)                    // default 16
 #define MAX_TEMP_C             350                     // Max soldering temp selectable °C
 #define MAX_TEMP_F             660                     // Max soldering temp selectable °F
 #define MIN_TEMP_C             10                      // Min soldering temp selectable °C
@@ -156,7 +156,7 @@
 #define NEEDS_VBUS_PROBE 0
 
 #define HARDWARE_MAX_WATTAGE_X10 650
-#define TIP_THERMAL_MASS         9000 // Test with 20; TODO, needs refinement
+#define TIP_THERMAL_MASS         100 // Test with 20; TODO, needs refinement
 #define TIP_RESISTANCE           60 // x10 ohms, ~6 typical
 #endif
 
