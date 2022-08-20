@@ -141,7 +141,7 @@
 #define MIN_BOOST_TEMP_C       150                     // The min settable temp for boost mode °C
 #define MIN_BOOST_TEMP_F       300                     // The min settable temp for boost mode °F
 #define NO_DISPLAY_ROTATE                              // Disable OLED rotation by accel
-#define SLEW_LIMIT             10                      // Limit to 3.0 Watts per 64ms pid loop update rate slew rate; def. 50
+#define SLEW_LIMIT             150                      // Limit to 3.0 Watts per 64ms pid loop update rate slew rate; def. 50
 #define ACCEL_MMA
 #define ACCEL_LIS
 #define ACCEL_SC7
