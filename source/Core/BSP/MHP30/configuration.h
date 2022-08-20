@@ -141,7 +141,7 @@
 #define MIN_BOOST_TEMP_C       150                     // The min settable temp for boost mode °C
 #define MIN_BOOST_TEMP_F       300                     // The min settable temp for boost mode °F
 #define NO_DISPLAY_ROTATE                              // Disable OLED rotation by accel
-#define SLEW_LIMIT             300                      // Limit to 3.0 Watts per 64ms pid loop update rate slew rate; def. 50
+#define SLEW_LIMIT             150                      // Limit to 3.0 Watts per 64ms pid loop update rate slew rate; def. 50
 #define ACCEL_MMA
 #define ACCEL_LIS
 #define ACCEL_SC7
@@ -156,7 +156,7 @@
 #define NEEDS_VBUS_PROBE 0
 
 #define HARDWARE_MAX_WATTAGE_X10 650
-#define TIP_THERMAL_MASS         90 // 200 good; TODO, needs refinement
+#define TIP_THERMAL_MASS         200 // 200 good; TODO, needs refinement
 #define TIP_RESISTANCE           60 // x10 ohms, ~6 typical
 #endif
 
