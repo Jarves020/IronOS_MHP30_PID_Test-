@@ -156,7 +156,7 @@
 #define NEEDS_VBUS_PROBE 0
 
 #define HARDWARE_MAX_WATTAGE_X10 650
-#define TIP_THERMAL_MASS         10000 // Test with 20; TODO, needs refinement
+#define TIP_THERMAL_MASS         500 // Test with 20; TODO, needs refinement
 #define TIP_RESISTANCE           60 // x10 ohms, ~6 typical
 #endif
 
