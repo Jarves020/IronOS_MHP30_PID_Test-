@@ -133,7 +133,7 @@
 #define OP_AMP_GAIN_STAGE      OP_AMP_GAIN_STAGE_MHP30 //
 #define USB_PD_VMAX            20                      // Maximum voltage for PD to negotiate
 #define MODEL_HAS_DCDC                                 // Has inductor to current filter
-#define PID_TIM_HZ             (16)                    //
+#define PID_TIM_HZ             (5)                    // default 16
 #define MAX_TEMP_C             350                     // Max soldering temp selectable °C
 #define MAX_TEMP_F             660                     // Max soldering temp selectable °F
 #define MIN_TEMP_C             10                      // Min soldering temp selectable °C
